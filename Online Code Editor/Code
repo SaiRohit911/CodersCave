@@ -1,0 +1,16 @@
+<h1>Coders Cave</h1>
+<button onClick="changeColor(this)">Click Here!</button>
+
+h1{
+    color : yellow;
+    margin-left : 280px;
+}
+button{
+    color : #000;
+    background : aqua;
+    margin-left : 300px;
+}
+
+function changeColor(x){
+    x.style.background : "lightgreen";
+}
